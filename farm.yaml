@@ -34,11 +34,6 @@ spec:
       labels:
         app: farm
     spec:
-      tolerations:
-      - key: "key"
-        operator: "Equal"
-        value: "geeks"
-        effect: "NoSchedule"
       nodeSelector:
         label: farm
       containers:
