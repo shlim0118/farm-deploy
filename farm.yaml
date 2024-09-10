@@ -40,7 +40,7 @@ spec:
       - name: farm-container
         image: 756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/farm:3
         volumeMounts:
-          - mountPath: /test
+          - mountPath: /testt
             name: farm-ebs-storage
         ports:
         - containerPort: 30001     # farm server port
