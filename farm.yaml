@@ -38,7 +38,7 @@ spec:
         label: farm
       containers:
       - name: farm-container
-        image: 756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/farm:8
+        image: 756266714368.dkr.ecr.ap-northeast-2.amazonaws.com/farm:9
         volumeMounts:
           - mountPath: /testt
             name: farm-ebs-storage
